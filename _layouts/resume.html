@@ -11,7 +11,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar">
+        <img src="images/ella1.jpg" alt="my photo" class="avatar">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -27,12 +27,18 @@
         </div>
 
         <div class="executive-summary">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          <p>I am a graduate student in <a href="http://www.weizmann.ac.il/condmat/" target="_blank">condensed matter physics at the Weizmann Institute of Science</a> in Israel.
+		  I work in the lab of <a href="https://www.weizmann.ac.il/condmat/superc/research.html" target="_blank">Prof. Eli Zeldov</a>,
+		  studying the magnetic properties of various physical systems using our novel SQUID-On-Tip magnetometer,
+		  focusing mainly on Magnetically doped Topological Insulators (latest results published in <a href="http://advances.sciencemag.org/content/1/10/e1500740.full" target="_blank">Science Advances</a>). 
+		  
+		  </p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button">Contact me</a>
+        
 		<a href="files/EllaLachman_CV.pdf" class="contact-button">Download CV</a>
+		<a href="mailto:{{ site.resume_contact_email }}" class="contact-button">Contact me</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking">I'm not looking for work right now.</a>
         {% else %}
@@ -45,38 +51,15 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>About Me</h2>
+          <h2 id="about_bookmark">About Me</h2>
         </header>
 
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
-          <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
-          </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- another resume item -->
-        <div class="resume-item">
-          <h3 class="resume-item-title">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item">
-          <h3 class="resume-item-title">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
-
-        </div><!-- end of resume-item -->
+        During my MSc and PhD studies I've designed and assembled a complete cryogenic (<sup>3</sup>He) scanning probe microscope combined with a transport measurement setup. I have been using this scanning SQUID-On-Tip microscope to study the magnetic properties of various physical systems, focusing mainly on Magnetically doped Topological Insulators (<a href="http://advances.sciencemag.org/content/1/10/e1500740.full" target="_blank">latest paper from Science Advances</a>).
+		<br>
+		I am a skillful and experienced setup designer, particularly of SPM systems. I have experience in 3D part design in both table-top scale, as well as high precision mm sized parts for CNC fabrication and micron-sized sample masks for e-beam and optical lithography.  
+		I am an expert in design and automation of experiments, and in data analysis including image processing. I enjoy thinking of all aspects when designing an experiment – starting with the sample design and ending with the final specific measurement, but I also acknowledge that sometimes interesting and beautiful discoveries come when combining playful “wondering” and educated guesses. 
+		<br>
+		Most of my work in the past few years was done on my own, making me accustomed to independent work and problem solving. Nevertheless, I value and enjoy the conversations and collaborations with fellow lab-mates that can expose each side to a different way of thinking and lead to interesting solutions and insights. I also enjoy teaching and mentoring of fellow students as well as undergraduate and even high-school students. I think there’s a skill in being able to appreciate the existing knowledge of the other side and to phrase the new knowledge you want to pass on in a relatable manner. This skill, in my opinion, is important to any scientist who wishes to share their newly acquired knowledge, be it in conferences and collaborations or simply when explaining to a new acquaintance what it is that you do.
 
       </section>
       <!-- end Experience -->
@@ -91,9 +74,18 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield College</h3>
-          <h4 class="resume-item-details">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
+          <h3 class="resume-item-title">Hebrew University of Jerusalem</h3>
+          <h4 class="resume-item-details">BSc Physics and Chemistry (magna cum laude) &bull; 2006 &mdash; 2009</h4>
+        </div>
+		<div class="resume-item">
+          <h3 class="resume-item-title">Weizmann Institute of Science</h3>
+          <h4 class="resume-item-details">M.Sc Physics &bull; 2009 &mdash; 2011</h4>
+          <p class="resume-item-copy">Thesis title: “Study of Vortex Dynamics in Type-II Superconductors by SOT microscopy”</p>
+        </div>
+		<div class="resume-item">
+          <h3 class="resume-item-title">Weizmann Institute of Science</h3>
+          <h4 class="resume-item-details">Doctorate candidate &bull; 2011 &mdash; present</h4>
+          <p class="resume-item-copy">Thesis title: “Scanning SQUID On Tip microscopy of topological states of matter”</p>
         </div>
 
       </section>
@@ -190,16 +182,15 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://beerfortheworld.com">Beer for the World</a></h3>
-          <h4 class="resume-item-details">Volunteer &bull; 2008 &mdash; Present</h4>
-          <p class="resume-item-copy">Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.</p>
+          <h3 class="resume-item-title"><a href="https://www.weizmann.ac.il/condmat/superc/">Zeldov group</a></h3>
+          <h4 class="resume-item-details">Graduate student &bull; 2009 &mdash; Present</h4>
         </div>
 
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Workers Labor Union</h3>
-          <h4 class="resume-item-details">Member in Good Standin &bull; 1994 &mdash; Present</h4>
-          <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
+          <h3 class="resume-item-title"><a href="http://www.weizmann.ac.il/pages/">Weizmann Institute of Science</a></h3>
+          <h4 class="resume-item-details"></h4>
         </div>
+
 
       </section>
       <!-- end Associations -->
@@ -210,13 +201,13 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2 id = "links_bookmark"> Additional Links</h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            <li><a href="#">Springfield Poker Club</a></li>
-            <li><a href="#">Springfield Donut Eater's User Group</a></li>
+            <li><a href="ezlablog.tumblr.com">tumblr blog for the EZ-lab</a></li>
+            <li><a href="http://opendacs.com/">openDACs</a> make your own (cheap) DAC!</li>
           </ul>
         </div>
 
@@ -225,8 +216,8 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">last updated: 19Jan2016.</p>
+        <p class="footer-line">contact me: ella.lachman@weizmann.ac.il</p>
       </footer>
 
     </div>

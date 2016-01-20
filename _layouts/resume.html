@@ -92,58 +92,89 @@
       <!-- end Education -->
       {% endif %}
 
-      {% if site.resume_section_projects %}
+ 
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2 id="skills_bookmark">Technical Skills</h2>
+        </header>
+
+		<div class="resume-item">
+          <h4 class="resume-item-details">Scanning Probe Microscopy</h4>
+          <p class="resume-item-copy">Design, assembly and use of a scanning probe microscope (scanning SQUID-On-Tip microscope). </p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details"><a href="images/microscopeDesign.png" target="_blank">3D part design</a></h4>
+        </div>
+		
+        <div class="resume-item">
+          <h4 class="resume-item-details">Experiment design</h4>
+          <p class="resume-item-copy">From the sample through the setup to the measurement.</p>
+        </div>
+		
+        <div class="resume-item">
+          <h4 class="resume-item-details">Data analysis</h4>
+          <p class="resume-item-copy">Including image analysis.</p>
+        </div>
+		
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
+     {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2 id="mentoring_bookmark">Mentoring and Popular Lectures</h2>
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://donutlocator.io" target="_blank">donutfinder.io</a></h3>
-          <h4 class="resume-item-details">Founder & Primary Developer &bull; 2012 &mdash; Present</h4>
-          <p class="resume-item-copy">Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.</p>
+          <h4 class="resume-item-details">Highschool final project mentor</h4>
+          <p class="resume-item-copy">A final project in physics as a substitue for an exam. Includes a small lab project and a final report submition.</p>
         </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Donut Eater's User Group</h3>
-          <h4 class="resume-item-details">Co-Founder & Organizer &bull; 2007 &mdash; Present</h4>
-          <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
+		
+		<div class="resume-item">
+          <h4 class="resume-item-details">De-Shalit ulpana mentor</h4>
+          <p class="resume-item-copy"><a href="https://www.weizmann.ac.il/UlpanotdeShalit/the-ulpanot" target="_blank">De-Shalit Ulpana for undergraduate students.</a></p>
+        </div>
+		
+		<div class="resume-item">
+          <h4 class="resume-item-details">Davidson institute instructor</h4>
+          <p class="resume-item-copy">The <a href="http://davidson.weizmann.ac.il/en/" target="_blank">Davidson Institute</a>  is the educational arm of the Weizmann Institute of Science.<br>
+										Mentoring was ranged between small group mentoring during experiments, and explanations and tours of the lab.</p>
+        </div>
+		
+		<div class="resume-item">
+          <h4 class="resume-item-details">Clore Garden of Science</h4>
+          <p class="resume-item-copy">I was a group guide at the <a href="http://davidson.weizmann.ac.il/en/science-garden" target="_blank">Clore Garden of Science</a>, guiding groups and VIP visitors from the age of 6 to 60 (and probably older).</p>
+        </div>
+		
+		<div class="resume-item">
+          <h4 class="resume-item-details">Superconductivity popular lecture</h4>
+          <p class="resume-item-copy">Given to the general public, high school students and junion-high students.</p>
+        </div>
+		
+		<div class="resume-item">
+          <h4 class="resume-item-details">Microscopy popular lecture - "seeing electricity"</h4>
+          <p class="resume-item-copy">Given during <a href="http://wis-wander.weizmann.ac.il/content/science-tap-2014" target="_blank">"science on tap"</a> events (2014,2015).</p>
+        </div>
+		
+		<div class="resume-item">
+          <h4 class="resume-item-details">Game Theory and Chocolates - popular lecture</h4>
+          <p class="resume-item-copy">Given to high school students in the <a href="http://davidson.weizmann.ac.il/content/%D7%97%D7%A6-%E2%80%93-%D7%97%D7%95%D7%A7%D7%A8%D7%99%D7%9D-%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D" target="_blank">"Chetz"</a> program.</p>
         </div>
 
       </section>
       <!-- end Projects -->
       {% endif %}
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Donut design</h4>
-          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Craft beer brewing</h4>
-          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Family leadership</h4>
-          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
-        </div>
-
-      </section>
-      <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_recognition %}
+	  
+	{% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">
 

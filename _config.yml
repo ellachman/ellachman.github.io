@@ -25,8 +25,8 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_about:	        true
 resume_section_education:       true
-resume_section_projects:        false
-resume_section_skills:          false
+resume_section_projects:        true
+resume_section_skills:          true
 resume_section_recognition:     false
 resume_section_links:           true
 resume_section_associations:    true
@@ -37,8 +37,8 @@ resume_social_links:
   resume_github_url:            "#about_bookmark"
   resume_website_url:           "#education_bookmark"
   resume_linkedin_url:          "#links_bookmark"
-  #resume_twitter_url:           "http://twitter.com/jglovier"
-  #resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_twitter_url:          "#skills_bookmark"
+  resume_dribbble_url:         "#mentoring_bookmark"
   resume_facebook_url:          "https://www.facebook.com/groups/864414967005883/"
   
   # resume_instagram_url:         "insert your Instagram URL here"

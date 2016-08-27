@@ -1,0 +1,36 @@
+<style type="text/css">
+/* ---------- gallery styles start here ----------------------- */
+.wrap {
+   overflow: hidden;
+   margin: 10px;
+   width: 100%;
+}
+.photo {
+	margin: 30px;
+	position: relative;
+	width: 180px;
+	height: 130px;
+	overflow: hidden;
+	float: left;
+	display: grid;
+}
+.photo img {
+	width: 200px;
+	background: #fff;
+	border: solid 1px #ccc;
+	padding: 4px;
+}
+.photo span {
+	width: 20px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	/* background: url(images/digg-style.gif) no-repeat; */
+}
+.photo a {
+	text-decoration: none;
+}
+
+</style>

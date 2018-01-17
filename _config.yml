@@ -13,7 +13,7 @@ resume_avatar:                  "true"
 resume_name:                    "Ella O. Lachman"
 #resume_title:                   "Nuclear Safety Inspector"
 resume_contact_email:
-  "ella.lachman@weizmann.ac.il"
+  "ellal@berkeley.edu"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -39,7 +39,7 @@ resume_social_links:
   resume_linkedin_url:          "#links_bookmark"
   resume_twitter_url:          "#skills_bookmark"
   resume_dribbble_url:         "#mentoring_bookmark"
-  resume_facebook_url:          "https://www.facebook.com/groups/ezlab/"
+  #resume_facebook_url:          "https://www.facebook.com/groups/ezlab/"
   
   #resume_instagram_url:         "gallery.html"
   
